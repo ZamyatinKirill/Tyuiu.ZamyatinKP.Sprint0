@@ -5,6 +5,12 @@ VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ZamyatinKP.Sprint0.Task0.V0", "Tyuiu.ZamyatinKP.Sprint0.Task0.V0\Tyuiu.ZamyatinKP.Sprint0.Task0.V0.csproj", "{E6C26CF7-BB1B-483D-AD94-6BCE2259FC76}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{A2838202-EC82-4760-BB58-2C0287D4FCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ZamyatinKP.Sprint0.Task1.V0", "Tyuiu.ZamyatinKP.Sprint0.Task1.V0\Tyuiu.ZamyatinKP.Sprint0.Task1.V0.csproj", "{30922837-FE69-4C5C-89FA-32CB869099A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{E6C26CF7-BB1B-483D-AD94-6BCE2259FC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6C26CF7-BB1B-483D-AD94-6BCE2259FC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6C26CF7-BB1B-483D-AD94-6BCE2259FC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30922837-FE69-4C5C-89FA-32CB869099A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30922837-FE69-4C5C-89FA-32CB869099A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30922837-FE69-4C5C-89FA-32CB869099A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30922837-FE69-4C5C-89FA-32CB869099A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6C26CF7-BB1B-483D-AD94-6BCE2259FC76} = {A2838202-EC82-4760-BB58-2C0287D4FCBF}
+		{30922837-FE69-4C5C-89FA-32CB869099A9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F38E3A6D-EBC5-4770-8F20-7AEA9DDA394E}
